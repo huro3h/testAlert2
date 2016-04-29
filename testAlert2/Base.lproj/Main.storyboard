@@ -24,21 +24,12 @@
                                     <action selector="alertAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sQW-5c-fb6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdH-yx-omV">
-                                <rect key="frame" x="139" y="242" width="45" height="30"/>
-                                <state key="normal" title="その２"/>
-                                <connections>
-                                    <action selector="no2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aNF-EE-4fL"/>
-                                    <action selector="sono2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yOP-Kk-FeT"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="alert1" destination="ZiL-iV-06W" id="17a-xn-JfV"/>
-                        <outlet property="no2" destination="LdH-yx-omV" id="1qA-4P-GAi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
